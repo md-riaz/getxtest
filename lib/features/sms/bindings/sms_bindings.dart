@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
-
-import '../controllers/sms_controller.dart';
-import '../services/sms_service.dart';
+import 'package:getxtest/features/sms/controllers/sms_controller.dart';
+import 'package:getxtest/features/sms/services/sms_service.dart';
 
 class SmsBindings extends Bindings {
   static void drop(String tag) {

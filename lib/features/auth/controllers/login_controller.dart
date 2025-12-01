@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import '../services/auth_service.dart';
+import 'package:getxtest/features/auth/services/auth_service.dart';
 
 class LoginController extends GetxController {
   final AuthService _authService = Get.find<AuthService>();

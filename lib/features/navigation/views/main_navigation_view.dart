@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../dashboard/views/dashboard_view.dart';
-import '../../fax/views/fax_view.dart';
-import '../../sms/views/sms_view.dart';
-import '../controllers/main_navigation_controller.dart';
+import 'package:getxtest/features/dashboard/views/dashboard_view.dart';
+import 'package:getxtest/features/fax/views/fax_view.dart';
+import 'package:getxtest/features/navigation/controllers/main_navigation_controller.dart';
+import 'package:getxtest/features/sms/views/sms_view.dart';
 
 class MainNavigationView extends StatelessWidget {
   const MainNavigationView({super.key});

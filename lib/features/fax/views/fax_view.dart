@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../controllers/fax_controller.dart';
+import 'package:getxtest/features/fax/controllers/fax_controller.dart';
 
 class FaxView extends StatelessWidget {
   const FaxView({super.key});

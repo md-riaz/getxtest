@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../../fax/widgets/fax_summary_card.dart';
-import '../../sms/widgets/sms_summary_card.dart';
-import '../controllers/dashboard_controller.dart';
+import 'package:getxtest/features/dashboard/controllers/dashboard_controller.dart';
+import 'package:getxtest/features/fax/widgets/fax_summary_card.dart';
+import 'package:getxtest/features/sms/widgets/sms_summary_card.dart';
 
 class DashboardView extends StatelessWidget {
   const DashboardView({super.key});

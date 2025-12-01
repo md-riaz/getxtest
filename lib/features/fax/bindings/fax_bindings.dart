@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
-
-import '../controllers/fax_controller.dart';
-import '../services/fax_service.dart';
+import 'package:getxtest/features/fax/controllers/fax_controller.dart';
+import 'package:getxtest/features/fax/services/fax_service.dart';
 
 class FaxBindings extends Bindings {
   static void drop(String tag) {

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../bindings/sms_bindings.dart';
-import '../controllers/sms_controller.dart';
-import '../views/sms_view.dart';
+import 'package:getxtest/features/sms/bindings/sms_bindings.dart';
+import 'package:getxtest/features/sms/controllers/sms_controller.dart';
+import 'package:getxtest/features/sms/views/sms_view.dart';
 
 class SmsSummaryCard extends StatelessWidget {
   const SmsSummaryCard({super.key});

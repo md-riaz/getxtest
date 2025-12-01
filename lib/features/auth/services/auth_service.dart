@@ -1,8 +1,7 @@
 import 'package:get/get.dart';
 import 'package:getxtest/core/bindings/session_manager_bindings.dart';
-
-import '../../navigation/views/main_navigation_view.dart';
-import '../views/login_view.dart';
+import 'package:getxtest/features/auth/views/login_view.dart';
+import 'package:getxtest/features/navigation/views/main_navigation_view.dart';
 
 class AuthService extends GetxService {
   final _isAuthenticated = false.obs;

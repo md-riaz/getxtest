@@ -1,12 +1,11 @@
 import 'package:get/get.dart';
-
-import '../../features/auth/services/auth_service.dart';
-import '../services/api_service.dart';
+import 'package:getxtest/core/services/api_service.dart';
+import 'package:getxtest/features/auth/bindings/auth_bindings.dart';
 
 class AppBindings extends Bindings {
   @override
   void dependencies() {
     Get.put(ApiService(), permanent: true);
-    Get.put(AuthService(), permanent: true);
+    AuthBindings().dependencies();
   }
 }

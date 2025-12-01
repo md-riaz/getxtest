@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
-
-import '../controllers/dashboard_controller.dart';
+import 'package:getxtest/features/dashboard/controllers/dashboard_controller.dart';
 
 class DashboardBindings extends Bindings {
   static void drop(String tag) {

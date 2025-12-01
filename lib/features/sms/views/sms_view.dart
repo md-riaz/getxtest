@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../controllers/sms_controller.dart';
+import 'package:getxtest/features/sms/controllers/sms_controller.dart';
 
 class SmsView extends StatelessWidget {
   const SmsView({super.key});

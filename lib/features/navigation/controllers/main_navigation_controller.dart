@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
-
-import '../../auth/services/auth_service.dart';
+import 'package:getxtest/features/auth/services/auth_service.dart';
 
 class MainNavigationController extends GetxController {
   final _currentIndex = 0.obs;

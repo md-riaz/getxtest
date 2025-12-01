@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import '../services/fax_service.dart';
+import 'package:getxtest/features/fax/services/fax_service.dart';
 
 class FaxController extends GetxController {
   FaxService get service => Get.find<FaxService>(tag: 'session');
